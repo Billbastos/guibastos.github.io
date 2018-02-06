@@ -43,3 +43,9 @@ rvm use ruby-2.2.5 --default
 gem install jekyll bundler
 ```
 
+
+# Creating a new Jekyll project #
+
+```bash
+jekyll new [site-name]
+```
