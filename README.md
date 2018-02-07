@@ -37,15 +37,27 @@ rvm use ruby-2.2.5 --default
 # sudo rvm osx-ssl-certs update all
 ```
 
+For more information access:
+[Jekyll Installation Guide](https://jekyllrb.com/docs/installation/)
+
 ## Jekyll ##
 
 ```bash
 gem install jekyll bundler
 ```
 
-
 # Creating a new Jekyll project #
 
 ```bash
 jekyll new [site-name]
+```
+
+## Serving the website ##
+```bash
+# First time 
+cd/[site-name]
+bundle exec jekyll serve
+
+# If it's not the first time running the server
+jekyll serve
 ```
