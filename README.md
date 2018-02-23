@@ -60,4 +60,7 @@ bundle exec jekyll serve
 
 # If it's not the first time running the server
 jekyll serve
+
+# To have access to the _drafts folder
+jekyll serve --draft
 ```
