@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: guigas
 title: About
 permalink: /about/
 ---

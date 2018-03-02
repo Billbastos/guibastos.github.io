@@ -64,3 +64,13 @@ jekyll serve
 # To have access to the _drafts folder
 jekyll serve --draft
 ```
+
+## Installing a new Theme
+
+- [Select a theme on Rubygems](https://rubygems.org/) and search for jekyll-theme
+- Copy the name of the theme
+- Go over Gemfile and add the line below
+- gem "[theme-name]"
+- on the Terminal, run `bundle install`
+- Head over the _config.yml file and change the `theme` variable adding the new theme name
+- start jekyll running `bundle exec jekyll serve`
