@@ -74,3 +74,7 @@ jekyll serve --draft
 - on the Terminal, run `bundle install`
 - Head over the _config.yml file and change the `theme` variable adding the new theme name
 - start jekyll running `bundle exec jekyll serve`
+
+## Working with variables
+
+- https://jekyllrb.com/docs/variables/

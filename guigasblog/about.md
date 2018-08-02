@@ -1,5 +1,5 @@
 ---
-layout: guigas
+layout: page
 title: About
 permalink: /about/
 guy: "Guigasbody"
